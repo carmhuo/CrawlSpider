@@ -22,7 +22,7 @@ class UrlManager(object):
         if urls is None or len(urls) == 0:
             return
         for url in urls:
-            self.new_urls.add(url)
+            self.add_new_url(url)
             
     def has_new_url(self):
         
